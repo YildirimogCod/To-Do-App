@@ -23,7 +23,6 @@ const addDOM = () => {
         // liDOM.innerHTML=`${inputDOM.value}`;
         liDOM.appendChild(todoText);
         formListDOM.appendChild(liDOM);
-        console.log(inputDOM.value); 
         
         inputDOM.value="";
     }  

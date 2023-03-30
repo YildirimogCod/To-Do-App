@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ddb7b7ea;;
+}
+#add {
+    background-color: #FDF7C3;
+}
+#delete {
+    background-color: #BBD6B8;
+}
+button {
+    border: none;
+}

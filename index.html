@@ -8,10 +8,11 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Merriweather&display=swap" rel="stylesheet">
 
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     
@@ -19,16 +20,16 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="text-center mt-5" id="title">TO-DO APP UYGULAMASINA HOŞGELDİNİZ</h1>
+                <h1 style="font-family: 'Fasthand', cursive;" class="text-center mt-5" id="title"><span style="font-size: 50px;">TO-DO APP</span> <br>UYGULAMASINA HOŞGELDİNİZ</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-8 offset-2">
                 <form id="form-user">
                     <input type="text" class="w-100 mt-4 text-center" placeholder="Lütfen eklemek istedğiniz görevinizi giriniz" name="gorev" id="gorev">
-                    <div class="btn w-100 d-flex justify-content-center gap-3 mt-4">
-                        <button type="reset" class="btn btn-outline-danger" id="delete" >Sıfırla</button>
-                        <button type="submit" class="btn btn-outline-success" id="add">Görevi Ekle</button>
+                    <div class="w-100 d-flex justify-content-center gap-3 mt-4">
+                        <button type="reset" class="btn fs-4" id="delete" >Sıfırla</button>
+                        <button type="submit" class="btn btn fs-4" id="add">Görevi Ekle</button>
                     </div>
                 </form>
             </div>
